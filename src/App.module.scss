@@ -1,0 +1,28 @@
+.container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    div {
+        border-radius: 5px;
+    }
+}
+
+@mixin box-styles {
+    color: white;
+    background-color: rgb(255, 128, 187);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.description {
+    p {
+        font-size: 20px;
+    }
+}
+.description, .filtersForm, .addEmployeeForm{
+    @include box-styles()
+}

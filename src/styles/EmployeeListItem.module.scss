@@ -1,0 +1,36 @@
+.addPrimeButton,
+.deleteButton {
+  padding: 5px;
+  display: flex;
+  text-align: center;
+  border: none;
+  background-color: lightgray;
+}
+
+.addPrimeButton {
+  color: rgb(0, 0, 0);
+}
+
+.prime {
+  color: orange;
+}
+
+.deleteButton {
+  color: red;
+}
+
+.listItem {
+  display: flex;
+  justify-content: space-between;
+
+  .itemContent {
+    display: flex;
+    gap: 80px;
+  }
+
+  .itemProperties {
+    display: flex;
+    gap: 5px;
+    text-align: center;
+  }
+}

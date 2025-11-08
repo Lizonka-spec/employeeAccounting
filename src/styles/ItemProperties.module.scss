@@ -1,0 +1,15 @@
+.itemName, .itemSalary{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.addButton{
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+.addEmployeeForm{
+    display: flex;
+    gap: 15px;
+}
